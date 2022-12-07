@@ -8,6 +8,7 @@
 struct K {
     
     struct API {
+        // The APIs are from one of the interview project
         static let endpointWithData = "https://s3.amazonaws.com/sq-mobile-interview/employees.json"
         static let endpointWithMalformedData = "https://s3.amazonaws.com/sq-mobile-interview/employees_malformed.json"
         static let endpointWithEmptyData = "https://s3.amazonaws.com/sq-mobile-interview/employees_empty.json"
